@@ -1,15 +1,35 @@
 {
-  "name": "react-native-socials",
-  "version": "0.0.20",
-  "description": "A react-native library which displays content from popular social networks",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "license": "MIT",
-  "author": "pierrecapo (https://twitter.com/PierreCaporossi)",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/PierreCapo/react-native-socials.git"
+  "_from": "react-native-socials@0.0.22",
+  "_id": "react-native-socials@0.0.22",
+  "_inBundle": false,
+  "_integrity": "sha512-lMFkWej5mELjMXXgjGgkRQaSXLoqiJ1BVQoS9EBvqXv60BjEE/soN8GvoqC4erIEP/m+E+IbD5Hu+QO2Lbz6LA==",
+  "_location": "/react-native-socials",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-socials@0.0.22",
+    "name": "react-native-socials",
+    "escapedName": "react-native-socials",
+    "rawSpec": "0.0.22",
+    "saveSpec": null,
+    "fetchSpec": "0.0.22"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-socials/-/react-native-socials-0.0.22.tgz",
+  "_shasum": "a4a18f196230f19b4535d9490687e8db604c4562",
+  "_spec": "react-native-socials@0.0.22",
+  "_where": "/home/Repos/DoneWithIt",
+  "author": {
+    "name": "pierrecapo",
+    "url": "https://twitter.com/PierreCaporossi"
+  },
+  "bugs": {
+    "url": "https://github.com/PierreCapo/react-native-socials/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "@babel/runtime": "^7.9.2",
     "@types/react-native": "^0.62.1",
@@ -20,21 +40,12 @@
     "typescript": "3.8.3",
     "yarn": "^1.22.4"
   },
+  "deprecated": false,
+  "description": "A react-native library which displays content from popular social networks",
   "devDependencies": {
     "tslib": "^1.11.1"
   },
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
-  },
-  "bugs": {
-    "url": "https://github.com/PierreCapo/react-native-socials/issues"
-  },
   "homepage": "https://github.com/PierreCapo/react-native-socials#readme",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd example && yarn start"
-  },
   "keywords": [
     "react-native",
     "socials",
@@ -42,5 +53,22 @@
     "instagram",
     "youtube",
     "reddit"
-  ]
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "name": "react-native-socials",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PierreCapo/react-native-socials.git"
+  },
+  "scripts": {
+    "start": "cd example && yarn start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "./dist/index.d.ts",
+  "version": "0.0.22"
 }
